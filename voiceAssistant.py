@@ -51,7 +51,7 @@ def openai_chatbot(prompt):
 
 # Play a favorite song
 def play_favorite_song():
-    song_path = "C:/path_to_your_song/favorite_song.mp3"  # Change this to your song file path
+    song_path = "C:/path_to_your_song/favorite_song.mp3"  # Change this 
     if os.path.exists(song_path):
         os.startfile(song_path)
         speak("Playing your favorite song.")
@@ -127,3 +127,4 @@ def run_voice_assistant():
 
 if __name__ == "__main__":
     run_voice_assistant()
+
